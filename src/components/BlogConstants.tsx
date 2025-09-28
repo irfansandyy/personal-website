@@ -1,0 +1,10 @@
+export const BLOGTOP = "flex min-h-screen flex-col mx-4 md:mx-0 items-center";
+export const BLOGDIV = "flex flex-col gap-8 md:w-[75rem] w-full mt-8 items-center";
+export const BLOGHR = "border-t-2 text-background-accent max-w-[75rem] w-full";
+export const BLOGCONTENTS = "flex flex-col gap-4 w-full max-w-[66.5625rem]";
+export const BLOGH2 = "text-2xl md:text-3xl font-bold";
+export const BLOGP = "text-base md:text-xl font-normal text-secondary-text leading-6";
+export const BLOGU = "text-foreground underline underline-offset-2 decoration-2 decoration-dashed hover:decoration-solid";
+export const BLOGUL = "list-disc list-inside space-y-1 text-base md:text-xl font-normal text-secondary-text";
+export const BLOGH3 = "text-xl md:text-2xl font-bold";
+export const BLOGCODE = "[&_code]:inline-block [&_code]:font-mono [&_code]:text-[0.9em] [&_code]:leading-snug [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded-md [&_code]:border [&_code]:border-background-accent [&_code]:bg-background-accent/40 [&_code]:text-foreground [&_code]:align-baseline cursor-text";

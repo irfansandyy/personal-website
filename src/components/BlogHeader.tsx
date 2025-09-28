@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function BlogHeader( { date, readTime, title, description, imageLink } : { date: string; readTime: string; title: string; description: string; imageLink: string; } ) {
   return (
     <div className="flex flex-col gap-8 max-w-[66.5625rem] w-full">
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -z-10 hidden md:block" style={{ transform: 'translateY(-480px)' }}>
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -z-5 hidden md:block" style={{ transform: 'translateY(-480px)' }}>
         <div className="relative" style={{ width: '1065px', height: '710px' }}>
           <Image src={imageLink} alt={title} fill className="block object-cover" priority sizes="1065px" />
           <div className="absolute inset-0" style={{  background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)' }}/>

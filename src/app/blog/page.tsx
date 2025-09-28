@@ -16,13 +16,11 @@ export default function Blog() {
       </div>
       <div className="flex flex-col w-full max-w-[75rem] md:w-[75rem] gap-8 md:gap-12 items-center">
         <hr className="border-t-2 border-background-accent w-full"></hr>
-        <BlogCard href="/blog/template" date="1 January 1970" readTime="10" title="Lorem ipsum dolor sit amet" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus arcu in iaculis laoreet. Sed convallis, justo ut scelerisque congue, ipsum risus mollis lectus" imageLink="/blog/blog1/blog-cover.png" />
+        <BlogCard href="/blog/meningkatkan-skill-typewriting" date="2 September 2025" readTime="6" title="Meningkatkan Skill Typewriting" description="Latihan meningkatkan skill typewriting dengan menggunakan typing club" imageLink="/blog/meningkatkan-skill-typewriting/blog-cover.png" />
         <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
-        <BlogCard href="/" date="1 January 1970" readTime="10" title="Lorem ipsum dolor sit amet" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus arcu in iaculis laoreet. Sed convallis, justo ut scelerisque congue, ipsum risus mollis lectus" imageLink="/blog/blog1/blog-cover.png" />
+        <BlogCard href="/blog/project-ticket-machine" date="9 September 2025" readTime="12" title="Proyek Ticket Machine dengan Java" description="Membuat sebuah Ticket Machine simpel dengan menggunakan Java" imageLink="/blog/project-ticket-machine/blog-cover.jpg" />
         <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
-        <BlogCard href="/" date="1 January 1970" readTime="10" title="Lorem ipsum dolor sit amet" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus arcu in iaculis laoreet. Sed convallis, justo ut scelerisque congue, ipsum risus mollis lectus" imageLink="/blog/blog1/blog-cover.png" />
-        <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
-        <BlogCard href="/" date="1 January 1970" readTime="10" title="Lorem ipsum dolor sit amet" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus arcu in iaculis laoreet. Sed convallis, justo ut scelerisque congue, ipsum risus mollis lectus" imageLink="/blog/blog1/blog-cover.png" />
+        <BlogCard href="/blog/clock-display-java" date="16 September 2025" readTime="16" title="Clock Display Menggunakan Java" description="Membuat display clock lengkap beserta tanggal dan suhu menggunakan java" imageLink="/blog/clock-display-java/blog-cover.jpeg" />
         <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
         <BlogCard href="/" date="1 January 1970" readTime="10" title="Lorem ipsum dolor sit amet" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus arcu in iaculis laoreet. Sed convallis, justo ut scelerisque congue, ipsum risus mollis lectus" imageLink="/blog/blog1/blog-cover.png" />
         <hr className="border-t-2 border-background-accent w-full"></hr>

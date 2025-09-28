@@ -1,6 +1,10 @@
 "use client"
 import { useRef, useState } from "react";
-import { Highlight, type Language, themes } from "prism-react-renderer";
+import { Highlight, type Language, themes, Prism } from "prism-react-renderer";
+(typeof global !== "undefined" ? global : window).Prism = Prism
+
+// @ts-expect-error need this import
+await import("prismjs/components/prism-java")
 const theme = themes.vsDark;
 
 export default function CodeBlock({ file, languageItem, codeItems }: { file: string, languageItem: Language, codeItems: string }) {
