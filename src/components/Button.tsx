@@ -44,10 +44,10 @@ export default function Button({ arrow, text, href, target, rel }: buttonProps) 
 
   const inner = (
     <>
-      <span className="text-xl md:text-[1.75rem] font-bold text-center text-foreground group-hover:!text-background">
+      <span className="text-primary text-xl md:text-[1.75rem] font-bold text-center group-hover:!text-background">
         {text}
       </span>
-      <span className="text-foreground group-hover:!text-background">
+      <span className=" text-primary group-hover:!text-background">
         {svgArrow(arrow)}
       </span>
     </>
