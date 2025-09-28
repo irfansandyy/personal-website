@@ -6,8 +6,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Blogs",
-  description: "Irfan Sandy's personal blogs"
+  title: "Tempplate Page",
+  description: "Nothing to see here",
+  icons: "/web-icon.png"
 };
 
 export default function Template() {

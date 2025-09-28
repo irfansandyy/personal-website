@@ -7,7 +7,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Proyek Ticket Machine",
-  description: "Membuat sebuah Ticket Machine dengan bahasa Java"
+  description: "Membuat sebuah Ticket Machine dengan bahasa Java",
+  icons: "/web-icon.png"
 };
 
 export default function ProyekTicketMachine() {

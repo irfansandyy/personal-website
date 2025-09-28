@@ -13,6 +13,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Portofolio",
   description: "Irfan Sandy's personal website",
+  icons: "/web-icon.png"
 };
 
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {

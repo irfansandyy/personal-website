@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blogs",
-  description: "Irfan Sandy's personal blogs"
+  description: "Irfan Sandy's personal blogs",
+  icons: "/web-icon.png"
 };
 
 export default function Blog() {

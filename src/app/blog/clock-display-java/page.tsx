@@ -7,7 +7,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Clock Display Menggunakan Java",
-  description: "Membuat display clock lengkap beserta tanggal dan suhu menggunakan java"
+  description: "Membuat display clock lengkap beserta tanggal dan suhu menggunakan java",
+  icons: "/web-icon.png"
 };
 
 export default function ClockDisplayMenggunakanJava() {

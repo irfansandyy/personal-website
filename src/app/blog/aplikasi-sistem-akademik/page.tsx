@@ -5,7 +5,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Aplikasi Sistem Akademik",
-  description: "Membuat aplikasi sistem akademik dengan Java dari struktur hingga implementasinya"
+  description: "Membuat aplikasi sistem akademik dengan Java dari struktur hingga implementasinya",
+  icons: "/web-icon.png"
 };
 
 export default function Template() {

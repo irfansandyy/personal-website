@@ -6,7 +6,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Meningkatkan Skill Typewriting",
-  description: "Cara saya meningkatkan skill typewriting dengan menggunakan typing club"
+  description: "Cara saya meningkatkan skill typewriting dengan menggunakan typing club",
+  icons: "/web-icon.png"
 };
 
 export default function MeningkatkanSkillTypewriting() {
