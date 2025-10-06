@@ -69,7 +69,7 @@ public class PersonalOrganizer {
         int choice;
 
         do {
-            System.out.println("\n=== Personal Organizer ===");
+            System.out.println("\\n=== Personal Organizer ===");
             System.out.println("1. Tambah Tugas");
             System.out.println("2. Lihat Semua Tugas");
             System.out.println("3. Hapus Tugas");
@@ -89,7 +89,7 @@ public class PersonalOrganizer {
                     break;
 
                 case 2:
-                    System.out.println("\nDaftar Tugas:");
+                    System.out.println("\\nDaftar Tugas:");
                     if (tasks.isEmpty()) {
                         System.out.println("Tidak ada tugas.");
                     } else {
