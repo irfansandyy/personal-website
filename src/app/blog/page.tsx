@@ -17,6 +17,8 @@ export default function Blog() {
       </div>
       <div className="flex flex-col w-full max-w-[75rem] md:w-[75rem] gap-8 md:gap-12 items-center">
         <hr className="border-t-2 border-background-accent w-full"></hr>
+        <BlogCard href="/blog/tech-support-system" date="13 October 2025" readTime="12" title="Membuat Tech Support System dengan Library" description="Membuat Tech Support System Menggunakan Library yang Tersedia di Java" imageLink="/blog/tech-support-system/blog-cover.jpg" />
+        <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
         <BlogCard href="/blog/latihan-object-grouping" date="06 October 2025" readTime="10" title="Latihan Object Grouping dengan Java" description="Membuat aplikasi to do list menggunakan Java untuk berlatih Object Grouping" imageLink="/blog/latihan-object-grouping/blog-cover.png" />
         <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
         <BlogCard href="/blog/aplikasi-sistem-akademik" date="29 September 2025" readTime="20" title="Aplikasi Sistem Akademik dengan Java" description="Membuat aplikasi sistem akademik menggunakan Java mulai dari struktur hingga implementasinya" imageLink="/blog/aplikasi-sistem-akademik/blog-cover.jpg" />
