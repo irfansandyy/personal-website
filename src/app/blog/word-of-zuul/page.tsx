@@ -37,7 +37,7 @@ export default function WordOfZuul() {
           </p>
           <h2 className={CN.BLOGH2}><br />Kode Program</h2>
           <p className={CN.BLOGP}>
-            Berikut adalah kode lengkap untuk membuat tech support system sederhana menggunakan library yang tersedia di Java:
+            Berikut adalah kode lengkap untuk membuat word of zuul sederhana menggunakan library yang tersedia di Java:
           </p>
           <CodeBlock languageItem="java" file="Command.java" codeItems={`public class Command
 {
