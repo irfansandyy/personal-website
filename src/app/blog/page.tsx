@@ -17,6 +17,10 @@ export default function Blog() {
       </div>
       <div className="flex flex-col w-full max-w-[75rem] md:w-[75rem] gap-8 md:gap-12 items-center">
         <hr className="border-t-2 border-background-accent w-full"></hr>
+        <BlogCard href="/blog/abstract-class-java" date="15 November 2025" readTime="30" title="Abstract Class in Java" description="Creating an Abstract Class in Java for Foxes and Rabbits Simulation" imageLink="/blog/abstract-class-java/blog-cover.png" />
+        <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
+        <BlogCard href="/blog/vehicle-rental-shop" date="8 November 2025" readTime="15" title="Vehicle Rental Shop" description="Creating a Vehicle Rental Shop Management System in Java using Object-Oriented Programming principles and inheritance" imageLink="/blog/vehicle-rental-shop/blog-cover.avif" />
+        <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
         <BlogCard href="/blog/online-shop-project" date="3 November 2025" readTime="10" title="Membuat Online Shop dengan Testing Menggunakan Java" description="Membuat aplikasi online shop menggunakan Java dengan pendekatan test-driven development" imageLink="/blog/online-shop-project/blog-cover.jpg" />
         <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
         <BlogCard href="/blog/word-of-zuul" date="27 October 2025" readTime="20" title="Word of Zuul" description="Membuat sebuah game petualangan berbasis teks sederhana menggunakan bahasa pemrograman java" imageLink="/blog/word-of-zuul/blog-cover.jpeg" />
