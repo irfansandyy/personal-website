@@ -19,6 +19,8 @@ export default function Blog() {
         <hr className="border-t-2 border-background-accent w-full"></hr>
         <BlogCard href="/blog/game-pong-java" date="2 December 2025" readTime="15" title="Game Pong Java" description="Membuat game Pong sederhana menggunakan bahasa pemrograman Java" imageLink="/blog/game-pong-java/blog-cover.png" />
         <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
+        <BlogCard href="/blog/latihan-java-database" date="1 December 2025" readTime="10" title="Latihan Java Database" description="Menggunakan Java untuk menghubungkan dan berinteraksi dengan database MySQL dengan JDBC Driver" imageLink="/blog/latihan-java-database/blog-cover.jpg" />
+        <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
         <BlogCard href="/blog/gui-programming-java" date="23 November 2025" readTime="24" title="GUI Programming in Java" description="Belajar cara membuat Graphical User Interface (GUI) di Java dengan menggunakan Swing dan AWT libraries" imageLink="/blog/gui-programming-java/blog-cover.avif" />
         <hr className="border-t-2 border-background-accent max-w-[62.5rem] w-full"></hr>
         <BlogCard href="/blog/abstract-class-java" date="15 November 2025" readTime="30" title="Abstract Class in Java" description="Creating an Abstract Class in Java for Foxes and Rabbits Simulation" imageLink="/blog/abstract-class-java/blog-cover.png" />

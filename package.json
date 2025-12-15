@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "15.5.4",
+    "next": "15.5.9",
     "prism-react-renderer": "^2.4.1",
     "prismjs": "^1.30.0",
     "react": "19.1.0",
